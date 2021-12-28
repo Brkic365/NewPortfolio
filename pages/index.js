@@ -169,9 +169,9 @@ export default function Home() {
         <div className={styles.skills} id="skills">
           <Fade cascade triggerOnce>
             <h2>
-              I have some <span>skills</span>
+              My <span>skills</span>
             </h2>
-            <p>Here are some of them</p>
+            <p>I am constantly learning and improving my skills</p>
           </Fade>
 
           <div className={styles.skillList}>
@@ -198,7 +198,9 @@ export default function Home() {
 
         <div className={styles.reviews} id="reviews">
           <Fade cascade triggerOnce>
-            <h2>{"Don't take my <span>word</span> for it"}</h2>
+            <h2>
+              {"Don't"} take my <span>word</span> for it
+            </h2>
             <p>Listen to these satisfied clients</p>
           </Fade>
           <div className={styles.reviewGrid}>
@@ -218,7 +220,8 @@ export default function Home() {
               Are you <span>interested</span> yet?
             </h2>
             <p>
-              If you are, please contact me below or <a>email</a> me
+              If you are, please contact me below or{" "}
+              <a href="mailto: brkicweb@gmail.com">email</a> me
             </p>
           </Fade>
           <Contact />

@@ -1,11 +1,47 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .carousel {
   position: relative;
   width: 80%;
   margin: 5rem auto 12rem auto;
   height: 570px;
+
+  .invisibleCursor {
+    z-index: 20;
+    opacity: 0;
+
+    .cursorCircle {
+      width: 7rem;
+      height: 7rem;
+      background-color: #6b98ff;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      border-radius: 50%;
+
+      P {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+    }
+  }
+
+  .visibleCursor {
+    animation: fadeIn 0.5s linear 0s 1 normal forwards;
+  }
 
   .slide,
   .activeSlide {
@@ -44,6 +80,7 @@
       width: 40rem;
       height: 30rem;
       margin: 0 auto !important;
+      cursor: pointer;
     }
   }
 
