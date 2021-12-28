@@ -198,9 +198,7 @@ export default function Home() {
 
         <div className={styles.reviews} id="reviews">
           <Fade cascade triggerOnce>
-            <h2>
-              Don't take my <span>word</span> for it
-            </h2>
+            <h2>{"Don't take my <span>word</span> for it"}</h2>
             <p>Listen to these satisfied clients</p>
           </Fade>
           <div className={styles.reviewGrid}>
