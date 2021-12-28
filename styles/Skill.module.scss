@@ -1,0 +1,31 @@
+.skill {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    padding: 6rem;
+    width: 20rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 1.5rem;
+    transition: 0.4s ease-in-out;
+
+    &:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 1rem 0;
+  }
+
+  p {
+    color: #757575;
+    font-size: 1.1rem !important;
+    width: 15rem;
+  }
+}

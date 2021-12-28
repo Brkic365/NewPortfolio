@@ -1,0 +1,63 @@
+@keyframes slideIn {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.fixedNav {
+  position: fixed !important;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  border-radius: 0 0 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  animation: slideIn 0.5s;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  padding: 1rem 7rem;
+  display: flex;
+  align-items: center;
+  place-content: space-between;
+  z-index: 10;
+  transition: 0.5s linear all;
+
+  .left {
+    h1 {
+      cursor: pointer;
+    }
+  }
+
+  .middle {
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+      li {
+        margin: 0 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+
+    img {
+      cursor: pointer;
+      width: 3rem;
+      padding: 1rem;
+      background: #6b98ff;
+      border-radius: 50%;
+    }
+  }
+}

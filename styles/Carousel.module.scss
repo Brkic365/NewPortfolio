@@ -1,0 +1,120 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carousel {
+  position: relative;
+  width: 80%;
+  margin: 5rem auto 12rem auto;
+  height: 570px;
+
+  .slide,
+  .activeSlide {
+    position: relative;
+    transition: transform 300ms;
+
+    img {
+      position: absolute;
+      transition: 300ms;
+      border-radius: 1rem;
+      width: 30rem;
+      margin: 0 auto;
+    }
+  }
+
+  .slide {
+    opacity: 0.5;
+    height: 30rem;
+    z-index: 4;
+
+    img {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .activeSlide {
+    margin: 0 auto !important;
+    opacity: 1;
+    height: 30rem;
+    z-index: 5;
+
+    img {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40rem;
+      height: 30rem;
+      margin: 0 auto !important;
+    }
+  }
+
+  .next,
+  .prev {
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    height: fit-content;
+
+    img {
+      transition: 600ms;
+      opacity: 0.5;
+      width: 50%;
+    }
+
+    &:hover {
+      img {
+        opacity: 1;
+      }
+    }
+  }
+
+  .next {
+    right: -5rem;
+    top: 50%;
+  }
+
+  .prev {
+    left: -5rem;
+    top: 50%;
+
+    img {
+      transform: rotate(180deg);
+    }
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 30rem;
+    margin: 1rem auto;
+
+    h2 {
+      font-size: 2.5rem !important;
+      color: #6b98ff;
+    }
+
+    p {
+      color: #757575;
+      width: 80%;
+      font-size: 1.1rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      margin-top: 1.5rem;
+      cursor: pointer;
+
+      p {
+        color: #6b98ff;
+        margin-right: 1rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "brkic_realestate_portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^5.5.5",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-awesome-reveal": "^3.8.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "sass": "^1.45.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
