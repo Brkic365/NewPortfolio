@@ -3,32 +3,16 @@ import styles from "../styles/Contact.module.scss";
 
 import { Fade } from "react-awesome-reveal";
 
-export default function Contact({ title }) {
+export default function Contact() {
   const [name, setName] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  // Confirmation message seen on success page after filling the contact form out
-  const ConfirmationMessage = (
-    <div className={styles.confirmed}>
-      <p>
-        Thank you for submitting this form. You should receive response within
-        24-48 hours.
-      </p>
-
-      <button onClick={() => setSubmitted(false)}>
-        <p>Submit another response</p>
-        <img src="/icons/arrow.svg" alt="Icon of an arrow" />
-      </button>
-    </div>
-  );
 
   const ContactForm = (
     <Fade cascade triggerOnce delay={800}>
       <form
         className="container"
         method="POST"
+        action="/success"
         name="contact-form"
-        action="/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
@@ -88,9 +72,5 @@ export default function Contact({ title }) {
     </Fade>
   );
 
-  return (
-    <div className={styles.contact}>
-      {!submitted ? ContactForm : ConfirmationMessage}
-    </div>
-  );
+  return <div className={styles.contact}>{ContactForm}</div>;
 }

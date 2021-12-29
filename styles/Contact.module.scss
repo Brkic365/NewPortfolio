@@ -112,24 +112,6 @@
       background-color: white;
     }
   }
-
-  .confirmed {
-    width: 80%;
-    margin: 1rem auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    p {
-      text-align: center;
-      font-size: 1.1rem;
-      color: #2c2b30;
-    }
-
-    button p {
-      color: #6b98ff;
-    }
-  }
 }
 
 @media only screen and (min-width: 533px) {
