@@ -214,10 +214,14 @@ export default function Home() {
         <p>©Brkic 2021. All RIghts Reserved</p>
         <div className={styles.socials}>
           <Link href="https://www.linkedin.com/in/antonio-brkic-923137226/">
-            <img src="/icons/socials/linkedin.svg" alt="Icon of Linked In" />
+            <a target="_blank">
+              <img src="/icons/socials/linkedin.svg" alt="Icon of Linked In" />
+            </a>
           </Link>
           <Link href="https://github.com/Brkic365">
-            <img src="/icons/socials/github.svg" alt="Icon of Github" />
+            <a target="_blank">
+              <img src="/icons/socials/github.svg" alt="Icon of Github" />
+            </a>
           </Link>
         </div>
       </footer>
