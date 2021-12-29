@@ -28,7 +28,7 @@ export default function Home() {
     },
     {
       name: "Clean Code",
-      desc: "I always take care thatmy code is clean and readable",
+      desc: "I always take care that my code is clean and readable",
       img: "code.svg",
     },
     {
@@ -126,7 +126,7 @@ export default function Home() {
               transition={{ x: { type: "tween" } }}
             >
               {
-                "Hello, I am Antonio Brkic! I am based in Croatia and I had passion for coding ever since I was a child. I am a web developer specialized in creating best Real Estate, Hotel and Apartment websites. "
+                "Hello, I am Antonio Brkic! I am based in Croatia and I had a passion for coding ever since I was a child. I am a web developer specializing in creating the best Real Estate, Hotel, and Apartment websites."
               }
             </motion.p>
           </div>
