@@ -26,10 +26,9 @@ export default function Contact({ title }) {
     <Fade cascade triggerOnce delay={800}>
       <form
         className="container"
-        method="post"
+        method="POST"
         name="contact-form"
-        action="/success"
-        onSubmit={() => setSubmitted(true)}
+        action="/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
