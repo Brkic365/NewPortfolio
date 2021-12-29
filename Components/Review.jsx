@@ -5,7 +5,7 @@ function Review({ review }) {
   return (
     <div className={styles.review}>
       <div className={styles.left}>
-        <img src="/images/biznisavatar.jpg" alt="Profile photo of a reviewer" />
+        <img src="/images/avatar.svg" alt="Profile photo of a reviewer" />
         <h3>{review.name}</h3>
       </div>
       <div className={styles.right}>

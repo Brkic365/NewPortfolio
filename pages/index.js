@@ -46,34 +46,16 @@ export default function Home() {
       stars: 5,
     },
     {
-      name: "Marin",
+      name: "Adam",
       review:
-        "Amazing developer, very professional and has great customer service, great experience dealing with him. Delivered fast and optimized code and everything worked like a charm! I am very much satisfied with his work and would love to work with him again in the future!",
-      stars: 4,
+        "I really enjoyed working with Antonio! He is very professional and dedicated to his craft. I reccomend him to anyone who is looking for a website. ",
+      stars: 5,
     },
     {
-      name: "Marin",
+      name: "Oliver",
       review:
-        "Amazing developer, very professional and has great customer service, great experience dealing with him. Delivered fast and optimized code and everything worked like a charm! I am very much satisfied with his work and would love to work with him again in the future!",
-      stars: 3,
-    },
-    {
-      name: "Marin",
-      review:
-        "Amazing developer, very professional and has great customer service, great experience dealing with him. Delivered fast and optimized code and everything worked like a charm! I am very much satisfied with his work and would love to work with him again in the future!",
-      stars: 2,
-    },
-    {
-      name: "Marin",
-      review:
-        "Amazing developer, very professional and has great customer service, great experience dealing with him. Delivered fast and optimized code and everything worked like a charm! I am very much satisfied with his work and would love to work with him again in the future!",
-      stars: 1,
-    },
-    {
-      name: "Marin",
-      review:
-        "Amazing developer, very professional and has great customer service, great experience dealing with him. Delivered fast and optimized code and everything worked like a charm! I am very much satisfied with his work and would love to work with him again in the future!",
-      stars: 0,
+        "I loved working with Antonio. He did everything I asked for and even more! If I ever need a website again, I will definitely return to him!",
+      stars: 5,
     },
   ];
 

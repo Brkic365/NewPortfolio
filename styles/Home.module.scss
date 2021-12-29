@@ -138,7 +138,7 @@
                 rgba(255, 255, 255, 0) 0%,
                 rgba(255, 255, 255, 0.6) 100%
               ),
-              url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+              url("../public/images/real_estate.webp");
             background-size: cover;
             width: 19rem;
             height: 10rem;
@@ -146,7 +146,7 @@
           }
 
           h3 {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: normal;
           }
         }
@@ -158,10 +158,28 @@
         .hotelCard {
           margin-left: 8rem;
           animation: fadeIn 0.5s linear 2.2s 1 normal forwards;
+
+          .imageHolder {
+            background: radial-gradient(
+                circle,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.6) 100%
+              ),
+              url("../public/images/hotel.webp");
+          }
         }
 
         .apartmentCard {
           animation: fadeIn 0.5s linear 3s 1 normal forwards;
+
+          .imageHolder {
+            background: radial-gradient(
+                circle,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.6) 100%
+              ),
+              url("../public/images/apartment.webp");
+          }
         }
       }
     }

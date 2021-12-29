@@ -15,25 +15,25 @@ function Carousel() {
 
   const slides = [
     {
-      img: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      img: "/images/projects/luxury_perspective.webp",
       name: "Luxury Perspective",
       desc: "Professional Real Estate website with multiple pages, such as About Us, Properties and one page for every single property",
       link: "https://luxuryperspective.netlify.app",
     },
     {
-      img: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      img: "/images/projects/honeycomb.webp",
       name: "Honeycomb",
-      desc: "Website made for planning projects for house builders",
+      desc: "Full-stack website made for house builders. It is used to plan projects and develop ideas regarding the house building. It features full authentication system and a lot more",
       link: "https://baustela2.netlify.app",
     },
     {
-      img: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      img: "/images/projects/bakmazon.webp",
       name: "Bakmazon",
-      desc: "A e-commerce website made for selling all kinds of clothes and footwear",
+      desc: "A e-commerce website that is used to sell clothes and footwear. Still in development",
       link: "https://bakmazon.netlify.app",
     },
     {
-      img: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      img: "/images/projects/minty.webp",
       name: "Minty Solutions",
       desc: "All-in-one digital marketing service personalised to your project that enhances and optimizes social media management and marketing",
       link: "https://mintysolutions.com",
