@@ -213,16 +213,10 @@ export default function Home() {
       <footer className={styles.footer}>
         <p>©Brkic 2021. All RIghts Reserved</p>
         <div className={styles.socials}>
-          <Link href="https://linkedin/">
+          <Link href="https://www.linkedin.com/in/antonio-brkic-923137226/">
             <img src="/icons/socials/linkedin.svg" alt="Icon of Linked In" />
           </Link>
-          <Link href="https://facebook/">
-            <img src="/icons/socials/facebook.svg" alt="Icon of Facebook" />
-          </Link>
-          <Link href="https://instagram/antoniobrkicc">
-            <img src="/icons/socials/instagram.svg" alt="Icon of Instagram" />
-          </Link>
-          <Link href="https://github/Brkic365">
+          <Link href="https://github.com/Brkic365">
             <img src="/icons/socials/github.svg" alt="Icon of Github" />
           </Link>
         </div>

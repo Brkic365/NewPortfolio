@@ -11,7 +11,7 @@ export default function Contact() {
       <form
         className="container"
         method="POST"
-        action="/success"
+        action="success"
         name="contact-form"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
