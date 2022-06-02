@@ -15,6 +15,18 @@ function Carousel() {
 
   const slides = [
     {
+      img: "/images/projects/rocketwizard.webp",
+      name: "Rocket Wizard",
+      desc: "Large-scale copytrading website featuring talented traders",
+      link: "https://www.rocketwizard.io/",
+    },
+    {
+      img: "/images/projects/ebankc.webp",
+      name: "Ebankc",
+      desc: "EBankc is the most rewarding and secured institution in the DeFi industry.",
+      link: "https://ebankc.vercel.app/",
+    },
+    {
       img: "/images/projects/luxury_perspective.webp",
       name: "Luxury Perspective",
       desc: "Professional Real Estate website with multiple pages, such as About Us, Properties and one page for every single property",

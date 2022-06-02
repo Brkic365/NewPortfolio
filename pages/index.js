@@ -126,22 +126,22 @@ export default function Home() {
               transition={{ x: { type: "tween" } }}
             >
               {
-                "Hello, I am Antonio Brkic! I am based in Croatia and I had a passion for coding ever since I was a child. I am a web developer specializing in creating the best Real Estate, Hotel, and Apartment websites."
+                "Hello, I am Antonio Brkic! I am based in Croatia and I had a passion for coding ever since I was a child. I am a web developer specialized in creating full-stack websites in ReactJS and NextJS frameworks."
               }
             </motion.p>
           </div>
           <div className={styles.workCards}>
             <div className={styles.realEstateCard}>
               <div className={styles.imageHolder} />
-              <h3>REAL ESTATE WEBSITES</h3>
+              <h3>SAAS WEBSITES</h3>
             </div>
             <div className={styles.hotelCard}>
               <div className={styles.imageHolder} />
-              <h3>HOTEL WEBSITES</h3>
+              <h3>CRYPTO WEBSITES</h3>
             </div>
             <div className={styles.apartmentCard}>
               <div className={styles.imageHolder} />
-              <h3>APARTMENT WEBSITES</h3>
+              <h3>REAL ESTATE WEBSITES</h3>
             </div>
           </div>
         </div>
