@@ -56,6 +56,11 @@ function Navbar() {
               <a>CONTACT ME</a>
             </Link>
           </li>
+          <li>
+            <Link href="/resume.pdf">
+              <a>RESUME</a>
+            </Link>
+          </li>
         </ul>
       </div>
       <div className={styles.right}>

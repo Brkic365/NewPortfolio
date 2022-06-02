@@ -126,7 +126,7 @@ export default function Home() {
               transition={{ x: { type: "tween" } }}
             >
               {
-                "Hello, I am Antonio Brkic! I am based in Croatia and I had a passion for coding ever since I was a child. I am a web developer specialized in creating full-stack websites in ReactJS and NextJS frameworks."
+                "Hello, I am Antonio Brkic! I am based in Croatia and I had a passion for coding ever since I was a child. I am a web developer specialized in creating full-stack websites in React.js and Next.js frameworks."
               }
             </motion.p>
           </div>
