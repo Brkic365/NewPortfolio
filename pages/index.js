@@ -65,7 +65,7 @@ export default function Home() {
         <title>Brkic | Web Developer</title>
         <meta
           name="description"
-          content="Hello! I am Antonio Brkic, a real estate web developer who makes websites for real estate agents, hotels and apartments."
+          content="Hello, I am Antonio Brkic! I am based in Croatia and I had a passion for coding ever since I was a child. I am a web developer specialized in creating full-stack websites in React.js and Next.js frameworks."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
