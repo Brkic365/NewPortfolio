@@ -21,6 +21,12 @@ function Carousel() {
       link: "https://www.rocketwizard.io/",
     },
     {
+      img: "/images/projects/minty.webp",
+      name: "Minty Solutions",
+      desc: "All-in-one digital marketing service personalised to your project that enhances and optimizes social media management and marketing",
+      link: "https://mintysolutions.com",
+    },
+    {
       img: "/images/projects/ebankc.webp",
       name: "Ebankc",
       desc: "EBankc is the most rewarding and secured institution in the DeFi industry.",
@@ -30,7 +36,7 @@ function Carousel() {
       img: "/images/projects/luxury_perspective.webp",
       name: "Luxury Perspective",
       desc: "Professional Real Estate website with multiple pages, such as About Us, Properties and one page for every single property",
-      link: "https://luxuryperspective.netlify.app",
+      link: "https://luxury-perspective.vercel.app",
     },
     {
       img: "/images/projects/honeycomb.webp",
@@ -38,18 +44,14 @@ function Carousel() {
       desc: "Full-stack website made for house builders. It is used to plan projects and develop ideas regarding the house building. It features full authentication system and a lot more",
       link: "https://baustela2.netlify.app",
     },
+    /*
     {
       img: "/images/projects/bakmazon.webp",
       name: "Bakmazon",
       desc: "A e-commerce website that is used to sell clothes and footwear. Still in development",
       link: "https://bakmazon.netlify.app",
     },
-    {
-      img: "/images/projects/minty.webp",
-      name: "Minty Solutions",
-      desc: "All-in-one digital marketing service personalised to your project that enhances and optimizes social media management and marketing",
-      link: "https://mintysolutions.com",
-    },
+    */
   ];
 
   const NextArrow = ({ onClick }) => {
