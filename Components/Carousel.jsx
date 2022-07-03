@@ -21,17 +21,18 @@ function Carousel() {
       link: "https://www.rocketwizard.io/",
     },
     {
+      img: "/images/projects/ebankc.webp",
+      name: "Ebankc",
+      desc: "EBankc is the most rewarding and secured institution in the DeFi industry.",
+      link: "https://ebankc.app/",
+    },
+    {
       img: "/images/projects/minty.webp",
       name: "Minty Solutions",
       desc: "All-in-one digital marketing service personalised to your project that enhances and optimizes social media management and marketing",
       link: "https://mintysolutions.com",
     },
-    {
-      img: "/images/projects/ebankc.webp",
-      name: "Ebankc",
-      desc: "EBankc is the most rewarding and secured institution in the DeFi industry.",
-      link: "https://ebankc.vercel.app/",
-    },
+
     {
       img: "/images/projects/luxury_perspective.webp",
       name: "Luxury Perspective",
@@ -42,7 +43,7 @@ function Carousel() {
       img: "/images/projects/honeycomb.webp",
       name: "Honeycomb",
       desc: "Full-stack website made for house builders. It is used to plan projects and develop ideas regarding the house building. It features full authentication system and a lot more",
-      link: "https://baustela2.netlify.app",
+      link: "https://honeycombsite.netlify.app",
     },
     /*
     {
